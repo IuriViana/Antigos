@@ -1,0 +1,7 @@
+Estrutura principal de um documento HTML. Duas versões na pasta = A normal e a comentada.
+
+--Inicialização ao conceito de ancoragem entre outras páginas para a criação de site.
+--comando de imagem e seu atributo src.
+--Listas ordenadas e não ordenadas.
+
+Utilização destes conceitos e outros aprendidos na internet para a criação de um site com redirecionamento para três páginas.

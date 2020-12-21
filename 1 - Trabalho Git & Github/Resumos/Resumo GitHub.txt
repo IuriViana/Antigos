@@ -1,0 +1,16 @@
+O Que é?
+
+
+GitHub nada mais é que uma plataforma de hospedagem de códigos fontes, com funcionalidades Git, como o de controle de versão, é como se fosse uma rede social, que os posts são códigos fontes, projetos.
+
+
+Como funciona?
+
+ 
+Como dito acima, é uma rede social, onde qualquer pessoa pode criar uma conta e já pode começar a postar seus projetos sendo privados ou Open Source, e ainda contribuir em outros projetos de outros programadores, como diversos recursos que relatam problemas ou mesclam repositórios remotos. 
+
+
+Onde pode/deve ser aplicado?
+
+ 
+Pode ser aplicado quando um projeto tem diversos desenvolvedores, e que todos trabalham ao mesmo tempo, também em projeto é colaborativos e para os próprios desenvolvedores, a divulgação de seu trabalho.

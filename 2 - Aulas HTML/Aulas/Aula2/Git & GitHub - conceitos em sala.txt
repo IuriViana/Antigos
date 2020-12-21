@@ -1,0 +1,93 @@
+COMANDOS BÁSICOS:
+
+cd nome da pasta - Entra em uma pasta específica;
+ls - Lista os arquivos presentes dentro da pasta;
+pwd - identifica o local em que você se encontra no computador;
+
+
+GITHUB:
+
+-- Criar conta;
+-- Criar repostório --- Pode utilizar qualquer nome; porém o github oferece um domínio gratuíto, que para ser utilizado necessita-se nomeá-lo com  -Nome do usuário-.github.io;
+por exemplo: iuriviana.github.io
+
+
+O arquivo .html precisa ser obrigatoriamente nomeado como index.html;
+
+
+UTILIZANDO A FERRAMENTA GIT:
+
+-- utilizado por meio de terminal Linux ou baixando a ferramenta para windowns.
+
+No caso de windows antes de mais nada configure o seu git, use estes comandos:
+
+git config --global user.name "Nome do github"
+git config --global user.email "email do github"
+
+
+
+--Criamos o repositório no GitHub e precisamos colocá-lo em nossa máquina, para isso utilize: git clone e o link do repósitorio, por exemplo: git clone https://github.com/IuriViana/iuriviana.github.io.git;
+
+--Automaticamente ao clonar o repositório no computador a pasta vem com uma pasta oculta a .git, essa pasta será a responsável por fazer a ligação Git-GitHub e nela estará amazenados alguns arquivos.
+
+
+-- Utilize cd Nome da pasta (do repositório), para entrar na mesma e começar a trabalhar.
+--Carregue a pasta do repositório no Visual Code, Crie no mesmo algum arquivo, por exemplo o próprio index.html;
+
+
+Vamos agora adicionar este arquivo na pasta .git para que posteriormente seja feito o commit e ocorra sua publicação no GitHub.
+
+-- git status - Mostra os status dos arquivos presente na pasta; Vermelhos os que não foram adicionado; Verdes os adicionados; identifica ainda caso modificado ou deletado;
+
+-- git add Nome Do arquivo -- Adiciona arquivo específico na pasta .git;
+-- git add . -- Adiciona todos os arquivos na pasta .git;
+
+-- git status -- O arquivo estará verde, pois foi adicionado;
+
+--Com os arquivos adicionados, Crie um commit; Uma versão do arquivo que estamos trabalhando, possuirá um comentário sobre o que foi feito:
+-- git commit -m"Comentário" -- criação do commit anexada a atribuição de um comentário;
+
+
+Podemos ver os commits criados com:
+-- git log - Lista todos os commits e seus comentários, além de definir um número para cada commit que pode ser visto posteriormente em git show;
+
+
+CONECTANDO O GIT NO GITHUB
+
+-git push -u origin master - Comando utilizado na primeira vez, vai publicar todos os commits no repositório do github
+-git push - Após adicionado pela primeira vez, novas versões podem ser publicadas apenas por este comando.
+
+
+OUtros comandos:
+
+-- git show e o número contido no commit: Imprime na tela tudo contido neste mesmo commit, que fora adicionado;
+-- git diff e o arquivo: Compara a versão mais recente não commitada com a versão commitada mais recente, mostrando o que foi removido ou adicionado;
+
+--git checkout -Nome do arquivo- Volta uma versão do arquivo;
+
+--git checkout -b "nome da branch" -- Cria uma branch
+
+O que é uma branch? É como se fosse uma versão separada do arquivo principal de um projeto, funciona como uma "DLC" que posteriormente pode ser adicionada a Master.
+
+--git merge -- Vai fundir branch com outra branch ou com a própria master.
+
+-- cat Nome do arquivo - Imprime na tela o que tem de escrito no arquivo;
+
+
+Praticamente tudo isso pode ser feito de maneira mais simples, utilizando apenas funções do Visual Code, mas é importante saber como tudo funciona e como utilizar o terminal. 
+
+
+
+Trabalhando com mais de uma pessoa:
+
+
+Você pode trabalhar adicionando um contribuidor ou por meio do Fork enviado pull requests que podem ser aceitos pelo projeto principal.
+
+Geralmente quando se trabalha com mais de uma pessoa o projeto vai ficar desatualizado em uma das máquinas, por exemplo eu estou trabalhando com outra pessoa e ela adicionou coisa ao arquivo, aquilo que está na web é diferente ao que está em minha máquina.
+
+Para colocar essas novas informações em minha máquina podemos utilizar o git pull.
+
+
+
+
+
